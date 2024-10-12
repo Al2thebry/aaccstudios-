@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AACC Studios - Aldo Arturo Carrazana Cambar</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a AACC Studios</h1>
+    </header>
+
+    <main>
+        <div class="welcome-message">
+            <p>Hola, bienvenidos a mi Web. Soy Aldo Arturo Carrazana Cambar. Esto es AACC Studios, un sitio donde aparecen aplicaciones editadas y creadas por mí.</p>
+            <button id="start-button">Comenzar</button>
+        </div>
+
+        <section id="login">
+            <h2>Iniciar Sesión</h2>
+            <p>Para acceder a este sitio debe iniciar sesión con:</p>
+            <button onclick="alert('Iniciar sesión con Google')">Google</button>
+            <button onclick="alert('Iniciar sesión con Facebook')">Facebook</button>
+            <button onclick="alert('Iniciar sesión con E-mail')">E-mail</button>
+        </section>
+
+        <section id="app-list">
+            <h2>Aplicaciones Disponibles</h2>
+            <ul>
+                <li>Aplicación 1 - 10MB <button class="download-button">Descargar</button></li>
+                <li>Aplicación 2 - 20MB <button class="download-button">Descargar</button></li>
+                <li>Aplicación 3 - 15MB <button class="download-button">Descargar</button></li>
+            </ul>
+        </section>
+
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <p>Para preguntas, por favor escribe a: <span style="display:none;">aldoarturocarrazanacambar@gmail.com</span></p>
+        </section>
+
+        <footer>
+            <p>&copy; Aldo Arturo Carrazana Cambar AACC Studios. Todos los derechos reservados 2018 - <span id="current-year"></span>.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
